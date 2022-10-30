@@ -18,6 +18,11 @@ config = {
 ping = False
 
 
+@bot.event
+async def on_message(ctx, *arg):
+    print(ctx.author.name + ": " + ctx.content)
+
+
 @bot.command()
 async def job(ctx, *arg):
     await ctx.reply(config['job'])
