@@ -8,7 +8,7 @@ intents = discord.Intents(messages=True, guilds=True)
 bot = commands.Bot('/', intents=intents)
 
 config = {
-    'token': 'MTAzMzY5OTMyMTQ0ODc1OTM0OA.GR0K7h.YzroKayppf5B6FrTQr0Yuz98w_R6uUFpKbcV7M',
+    'token': 'сюды токен',
     'prefix': '/',
     'job': "Нафармить 13.5 стаков обсидиана. Для передачи обсидиана обратиться к главе или хелперу.",
     'admins': [636626607557312532, 529699280060022814, 555036117011791912],
